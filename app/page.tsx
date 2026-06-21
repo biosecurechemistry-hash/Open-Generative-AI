@@ -1,6 +1,10 @@
+'use client';
+
 import StatusCards from '../components/StatusCards';
 import JobGrid from '../components/JobGrid';
 import LogTerminal from '../components/LogTerminal';
+
+export const dynamic = 'force-dynamic';
 
 export default function Home() {
   return (
